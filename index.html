@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You, My Love</title>
+    <style>
+        :root {
+            --pink: #ffb6c1;
+            --bg: #0a0a0a;
+            --glass: rgba(255, 255, 255, 0.05);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: white;
+            font-family: 'Georgia', serif;
+            overflow-x: hidden;
+        }
+
+        /* --- Falling Rose Emojis --- */
+        .rose-shower {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        .falling-rose {
+            position: absolute;
+            font-size: 24px;
+            user-select: none;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(110vh) rotate(360deg); opacity: 0.2; }
+        }
+
+        /* --- Main Content Styling --- */
+        .content-wrapper {
+            position: relative;
+            z-index: 10;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .letter-section {
+            margin-bottom: 100px;
+            line-height: 1.8;
+            font-style: italic;
+            color: #ddd;
+        }
+
+        .letter-section h1 {
+            font-size: 3rem;
+            color: var(--pink);
+            margin-bottom: 10px;
+        }
+
+        .date {
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            color: var(--pink);
+            margin-bottom: 30px;
+            display: block;
+        }
+
+        /* --- Memories Section (Stacked One by One) --- */
+        .memories-title {
+            font-size: 2.5rem;
+            color: var(--pink);
+            margin-bottom: 60px;
+        }
+
+        .memory-card {
+            width: 100%;
+            background: var(--glass);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            margin-bottom: 80px;
+            overflow: hidden;
+            text-align: left;
+            transition: transform 0.3s ease;
+        }
+
+        .memory-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--pink);
+        }
+
+        .img-placeholder {
+            width: 100%;
+            height: 450px;
+            background: #151515;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .img-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .img-label {
+            position: absolute;
+            color: #444;
+            font-size: 1.2rem;
+        }
+
+        .text-content {
+            padding: 40px;
+        }
+
+        .text-content h3 {
+            color: var(--pink);
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .text-content p {
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: #ccc;
+            margin-bottom: 0;
+        }
+
+        footer {
+            padding: 80px 0;
+            letter-spacing: 5px;
+            color: var(--pink);
+            font-weight: bold;
+            opacity: 0.6;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            .img-placeholder { height: 300px; }
+            .letter-section h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+  
+
+    <div class="rose-shower">
+        <div class="falling-rose" style="left: 5%; animation-duration: 9s;">🌹</div>
+        <div class="falling-rose" style="left: 15%; animation-duration: 8s; animation-delay: 0s;">🌹</div>
+        <div class="falling-rose" style="left: 30%; animation-duration: 9s; animation-delay: 0s;">🌹</div>
+        <div class="falling-rose" style="left: 50%; animation-duration: 7s; animation-delay: 0s;">🌹</div>
+        <div class="falling-rose" style="left: 70%; animation-duration: 5s; animation-delay: 0s;">🌹</div>
+        <div class="falling-rose" style="left: 85%; animation-duration: 7s; animation-delay: 0s;">🌹</div>
+        <div class="falling-rose" style="left: 95%; animation-duration: 6s; animation-delay: 0s;">🌹</div>
+    </div>
+
+    <div class="content-wrapper">
+        <header class="letter-section">
+            <h1>For You, My Hoor</h1>
+            <span class="date">MAY 10, 2026</span>
+            <p>My Dearest,</p>
+            <p>
+                There are moments in life that words can barely hold. You are made of all those moments for me.
+            </p>
+            <p>
+              I wanted to put into words what I've been feeling because looking back where we started and where we are now feels like miracle. Its impossible to decrible what my heart feels about you impossible!!!    
+            </p>
+            <p>
+              I still remeber the the night we talk for first time 17 of April,Friday night. That night change evrthing in my life.
+              At first i was very scared to talk because I never talk to somone beautiful like you.But things changes day by day, we talk day and night non stop without hesitation.I was really feeling good to talk to you like Im ugly but you are not but you never judge on my looks.
+              And after somedays we decided to meet and we finally meet on 25 April first not last. Before meeting you i was so nervous,overthinking,feeling panic but when i saw you for first time in real i feel so much calm like never before.It was so special for me can't decribe in words.Still somtimes it feels like dream for me,that beautiful dream i nerver wana wake up again.
+             </p>
+             <p>
+              Before you my life was worthless.January,February,March,It was hardest for me like i was living all day in my dark room cant sleep even after pills. Feel worthless lose intrest in everthing and going to end this pain soon... But luckly Allah send you,change everthing.You bring happiness in my life, the way you cared for me its enough for me, you fixed me.
+              I can never return that favour Its too much me,the boy who never get treated right,never been ask how am I, how was my day, everyone left me. No one cares if im okay or not but you, you change everything.You make me laught, smile , Happy. The way you give me comfort, the way you cares about everthing related to me , the way you defend me,helped me when everyone were making fun of me.
+              And now Im healing, and you are the reason behind my recovery.
+             </p>
+             <p>
+              It hurt my soul when i think about what happend with you in past. That mf was a fool the way he hurt you give you pain i wana kill him.
+              I'm really sad about the things happening to you rn. I wish it never happened with you. But trust me everthing will be fine, its just hard time let it pass. After every dark night there is a beautiful sunrise and trust me everthing will be better then before.
+              I wana confess that i never saw stronger person then you, you are stronger then me trust me you can fight and Im here always when ever you need me im here always. And never dare to say that you arent beautiful, If i could give you my eyes then i could show you how much beautiful you look .You are perfect in every damn way!!!
+
+             </p>
+             <p>
+              Ill be with you till my last breath I promise! no matter what im here always never going to anyone even in future a girl having crush on me(impossible thing XD) IM NOT GOING ANYWHERE!!!
+
+             </p>
+             <p>
+              I really Miss you alot I wish everthing can be fine again so we can be meet again, Im waiting for the day. And i wana thank you for being so much special perspn in my life,Thank you for being here always for me and making me happy.I LOVE YOU ALOT MORE THEN I CAN SAY IN WORDS.
+              i dont need anything i just need you and only you.
+             </p>
+        </header>
+
+        <h2 class="memories-title">Our Memories</h2>
+
+        <div class="memory-card">
+            <div class="img-placeholder">
+                
+                <img src="Image.jpeg" alt="">
+            </div>
+            <div class="text-content">
+                <h3>How it Started...</h3>
+                <p>
+                   As I saw your comment I think twice before replying.I was confused to comment after seeing your profile
+                   Im happy that I replied at your comment.I wounder what i might be doing if your comment never exsisted or i never reply to it or never saw the comment.
+                
+                </p>
+            </div>
+        </div>
+
+        <div class="memory-card">
+            <div class="img-placeholder">
+                
+                <img src="img2.jpeg" alt="">
+            </div>
+            <div class="text-content">
+                <h3>First time meeting</h3>
+                <p>
+                    I can never explain that feeling it was so special for me.Im sorry i was so much panic at that time it was my first time sitting so close to someone and a person so pretty like you 
+                    I love the red hair color, I love your eyes, I love the way talk to me ,I loe everthing about you.
+                </p>
+            </div>
+        </div>
+
+        <div class="memory-card">
+            <div class="img-placeholder">
+                
+                <img src="img3.jpeg" alt="">
+            </div>
+            <div class="text-content">
+                <h3>Miss You soo much</h3>
+                <p>
+                    Our first jam, It was so special for me i cant describe it, it was perfect.I was missing you alot and then when we start listening songs together i feel like im close to you.
+                </p>
+            </div>
+        </div>
+        <p>
+            In the end just wana say Thank You So Much For everything and I love you the most im here always , and believe in yourself you can fight
+        </p>
+
+        <footer>
+            NOW &middot; ALWAYS &middot; FOREVER
+        </footer>
+    </div>
+
+</body>
+</html>
